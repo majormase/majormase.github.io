@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>The Book Room</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 >The Book Room</h1>
+      <div id="modal">
+        <div id="modal-textbox">
+          <h1></h1>
+          <p>“The reading of all good books is like a conversation with the finest minds of past centuries.”</p>
+          <p>- Immanuel Kant</p>
+          <p> </p>
+          <p>Input a book in the search bar to find your next destination.</p>
+          <div id="modal-footer">
+  	         <button class="modal-buttons" id="close" href="#">Close</button>
+           </div>
+        </div>
+      </div>
+    <button id="openModal">why read?</button>
+  <div class="input">
+    <form>
+    	<input type="text" placeholder="book title"/>
+    	<input class = "btn" type="submit" value="search" />
+    </form>
+      <!-- <button class="btn" type="submit" name="button">search</button> -->
+
+  </div>
+    <div class="results">
+      <div id="title"></div>
+      <div id="author"></div>
+      <div id="publisher"></div>
+      <div id="description"></div>
+      <!-- <img src="" alt="">
+      <div id="image"><img src="" alt=""></div> -->
+    </div>
+    </div>
+    <footer>
+    <div class="left">
+      <p id="con"><a href="#">contact</a></p>
+      <p id="bus"><a href="#">business</a></p>
+      <p id="phil"><a href="#">philanthropy</a></p>
+    </div>
+    <div class="right">
+      <p id="pri"><a href="#">privacy</a></p>
+      <p id="ter"><a href="#">terms</a></p>
+      <p id="set"><a href="#">settings</a></p>
+    </div>
+    </footer>
+  </body>
+</html>
